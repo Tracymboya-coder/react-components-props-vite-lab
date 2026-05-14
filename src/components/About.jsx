@@ -2,9 +2,8 @@ function About({ image, about }) {
   return (
     <aside>
       <img
-        src={image}
+        src={image || "https://via.placeholder.com/215"}
         alt="blog logo"
-        width="250"
       />
 
       <p>{about}</p>
